@@ -1,27 +1,20 @@
 body {
-  background-color: #BBBBBB;
-}
-
-.backImg {
-  background-image: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  border-radius: 20px;
-  margin: 0px auto;
+  background: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  max-width: 1400px;
-  min-width: 400px;
-  width: 100%;
-  min-height: 800px;
-  filter: grayscale(15%);
 }
 
 .navBar-pos {
   padding-top: 20px;
   max-width: 1000px;
   min-width: 400px;
-  width: 100%;
+  width: 90%;
+  position: fixed;
   margin: 0px auto;
+  left:0;
+  right:0;
 }
 
 .navBar {
@@ -84,8 +77,38 @@ body {
         color: #DDDDDD;
       }
 
+.intro {
+  margin: 0px auto;
+  width: 80%;
+  padding-top: 160px;
+  max-width: 800px;
+  min-width: 600px;
+  height: 450px;
+}
+	  
+.p1-pos {
+  float: left;
+  display: inline;
+  padding-top: 80px;
+  width: 0%;
+}
+	  
+#p1 {
+  background-color: rgba(67,198,219,.8);
+  border-radius: 40px;
+  height: auto;
+  width: 400px;
+  float: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+}
+  
 .iphone1-pos {
-  margin: 40px 70%
+  float: right;
+  padding-top: px;
 }
 
   .iphone1 {
