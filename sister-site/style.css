@@ -7,7 +7,7 @@ body {
 }
 
 .navBar-pos {
-  padding-top: 20px;
+  padding-top: 10px;
   max-width: 1000px;
   min-width: 400px;
   width: 90%;
@@ -94,16 +94,17 @@ body {
 }
 	  
 #p1 {
-  background-color: rgba(67,198,219,.8);
-  border-radius: 40px;
+  background-color: rgba(67,198,219,.9);
+  border-radius: 20px;
   height: auto;
   width: 400px;
   float: left;
-  font-size: 15px;
+  font-size: 20px;
   font-family: sans-serif;
   text-align: center;
+  font-weight: 500;
   color: #000000;
-  padding: 10px;
+  padding: 20px;
 }
   
 .iphone1-pos {
@@ -126,8 +127,90 @@ body {
       padding-top: 68px;
       padding-left: 35px;
     }
+	
+	
+.cleanEnergy {
+  background-color: #FFBA2E;
+  margin: 100px auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
 
+#cleanHead {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
 
+.localFood {
+  background-color: #B5E13C;
+  margin: 200px auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
 
+#localHead {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.resourceManage {
+  background-color: #27AE34;
+  margin: 200px auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+#resourceHead {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.wasteReduction {
+  background-color: #EC4726;
+  margin: 200px auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+#wasteHead {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.sustainCom {
+  background-color: #3EDBBC;
+  margin: 200px auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+#sustainHead {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.workEdu {
+  background-color: #A96CB0;
+  margin: 200px auto;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+#workHead {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
 
   
