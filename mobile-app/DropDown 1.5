@@ -8,7 +8,7 @@ for index in range(10): #makes a dropdown with 10 buttons
     if index == 0:
         btn = Button(text='Bryce', size_hint_y=None, height=44)
     elif index == 1:
-        btn = Button(text='Phan', size_hint_y=None, height=44)
+        btn = Button(text='Phan', size_hint_y=None, height=44, color=(33, 234, 32, 43), background_color=(32,22,234,23))
     else:
         btn = Button(text='dropdown %d' %index, size_hint_y=None, height=44)
     #size_hint_y is None to allow the dropdown to calculate the area needed
