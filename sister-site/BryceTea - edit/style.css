@@ -1,0 +1,112 @@
+body {
+	  background: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* ^^^^^ Formfits background to edges of border */
+/*backImg {
+  background-image: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.navBar-pos {
+  padding-top: 20px;
+  max-width: 1000px;
+  min-width: 400px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.navBar {
+  background-color: rgb(67,198,219);
+  padding: 20px 0px 20px 0px;
+  padding-top: -1px;
+}
+
+  .logo-pos {
+    padding-left: 20px;
+    display: inline;
+  }
+
+    #logo {
+      background-image: url(http://cdn.shopify.com/s/files/1/0247/3741/t/17/assets/logo.png?8327665980255007351);
+      background-size: 60px auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 20px 35px 18px 35px;
+    }
+
+  .navLinks {
+    color: #FFFFFF;
+    font-size: 
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+
+    #navHome {
+      color: #000000;
+      font-size: 20px;
+      text-decoration: none;
+      padding-left: 40px;
+    }
+
+      #navHome:hover{
+        color: #DDDDDD;
+      }
+
+    #navFeed {
+      color: #000000;
+      font-size: 20px;
+      text-decoration: none;
+      padding-left: 40px;
+    }
+
+      #navFeed:hover{
+        color: #DDDDDD;
+      }
+
+    #navMore {
+      color: #000000;
+      font-size: 20px;
+      text-decoration: none;
+      padding-left: 40px;
+    }
+
+      #navMore:hover{
+        color: #DDDDDD;
+      }
+
+.iphone1-pos {
+  margin: 40px 70%
+}
+
+  .iphone1 {
+    background-image: url(https://mockuphone.com/static/images/devices/apple-iphone7-silver-portrait.png);
+    background-position: center center;
+    width: 250px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    }
+
+    #iphone1-gif {
+      height: 314px;
+      width: 178px;
+      padding-top: 68px;
+      padding-left: 35px;
+    }
+
+.pagesplits  {
+	height: 800px;
+	width:100%;
+	background-color:white;
+	overflow: none;
+	margin-bottom:200px;
+}
+
+
