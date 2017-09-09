@@ -1,20 +1,18 @@
 body {
-  background-color: #BBBBBB;
-}
-
-.backImg {
-  background-image: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  border-radius: 20px;
-  margin: 0px auto;
+	  background: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  max-width: 1400px;
-  min-width: 400px;
-  width: 100%;
-  min-height: 800px;
-  filter: grayscale(15%);
 }
+/* ^^^^^ Formfits background to edges of border */
+/*backImg {
+  background-image: url(https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170606121056-hawaii---travel-destination---shutterstock-457528552.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
 
 .navBar-pos {
   padding-top: 20px;
@@ -27,7 +25,6 @@ body {
 .navBar {
   background-color: rgb(67,198,219);
   padding: 20px 0px 20px 0px;
-  border-radius: 18px;
   padding-top: -1px;
 }
 
@@ -104,7 +101,10 @@ body {
       padding-left: 35px;
     }
 
-
-
-
-  
+.pagesplits  {
+	height: 800px;
+	width:100%;
+	background-color:white;
+	overflow: none;
+	margin-bottom:200px;
+}
