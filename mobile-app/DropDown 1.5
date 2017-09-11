@@ -1,0 +1,26 @@
+from kivy.uix.dropdown import DropDown
+from kivy.uix.button import Button
+from kivy.base import runTouchApp
+
+dropdown = DropDown()
+
+for index in range(10): #makes a dropdown with 10 buttons
+    if index == 0:
+        btn = Button(text='Bryce', size_hint_y=None, height=44)
+    elif index == 1:
+        btn = Button(text='Phan', size_hint_y=None, height=44, color=(33, 234, 32, 43), background_color=(32,22,234,23))
+    else:
+        btn = Button(text='dropdown %d' %index, size_hint_y=None, height=44)
+    #size_hint_y is None to allow the dropdown to calculate the area needed
+    btn.bind(on_release=lambda btn: dropdown.select(btn.text))
+
+    dropdown.add_widget(btn)
+
+mainbuton = Button(text='Hello', size_hint=(None, None))
+#creates a main big button
+
+mainbuton.bind(on_release=dropdown.open)
+
+dropdown.bind(on_select=lambda instance, x: setattr(mainbuton, 'text', x))
+
+runTouchApp(mainbuton)
