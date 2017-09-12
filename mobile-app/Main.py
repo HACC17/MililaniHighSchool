@@ -8,18 +8,20 @@ class LoginScreen(GridLayout):
 
     def __init__(self, **kwargs):
         super(LoginScreen, self).__init__(**kwargs)
-
-        layout = GridLayout(size_hint_x=None, width=100, row_force_default=True, row_default_height=40)
         self.cols = 2
         self.spacing = 10
         
-        self.add_widget(Label(text='Todays Shower Duration'))
-        self.showerDuration = TextInput(multiline=False)
+        self.add_widget(Label(text='Todays Shower Duration', size_hint_x=None, width=300))
+        self.showerDuration = TextInput(multiline=False, size_hint_x=None, width=300)
         self.add_widget(self.showerDuration)
         
-        self.add_widget(Label(text='Most Recent Water Bill'))
-        self.waterBill = TextInput(multiline=False)
+        self.add_widget(Label(text='Most Recent Water Bill', size_hint_x=None, width=300))
+        self.waterBill = TextInput(multiline=False, size_hint_x=None, width=300)
         self.add_widget(self.waterBill)
+
+        self.add_widget(Label(text='That Bills Date', size_hint_x=None, width=300))
+        self.waterBillDate = TextInput(multiline=False, size_hint_x=None, width=300)
+        self.add_widget(self.waterBillDate)
 
 
 class MyApp(App):
