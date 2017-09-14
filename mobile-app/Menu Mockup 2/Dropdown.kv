@@ -1,0 +1,31 @@
+<CustomDropDown>:
+
+    Button:
+        id: btn
+        text: 'Press'
+        on_release: dropdown.open(self)
+        size_hint_y: None
+        height: '48dp'
+
+    DropDown:
+
+        id: dropdown
+        on_parent: self.dismiss()
+        on_select: btn.text = '{}'.format(args[1])
+
+        Button:
+            text: 'First Item'
+            size_hint_y: None
+            height: '48dp'
+            on_release: dropdown.select('First Item')
+
+        Label:
+            text: 'Second Item'
+            size_hint_y: None
+            height: '48dp'
+
+        Button:
+            text: 'Third Item'
+            size_hint_y: None
+            height: '48dp'
+            on_release: dropdown.select('Third Item')
